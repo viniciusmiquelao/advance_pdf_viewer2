@@ -23,6 +23,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace = "com.advance_pdf_viewer2"
     compileSdkVersion 34
 
     defaultConfig {
